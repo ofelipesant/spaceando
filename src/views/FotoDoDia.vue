@@ -1,3 +1,3 @@
 <template>
- <RouterView/>
+    teste foto do dia
 </template>
