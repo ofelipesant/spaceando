@@ -16,6 +16,6 @@
 <template>
     <div class="service-card">
         <h3 class="card-title">{{ cardName }}</h3>
-        <img :src=cardBanner alt="card-banner" class="card-banner" width="100">
+        <img :src=cardBanner alt="card-banner" class="card-banner" width="100" loanding="lazy">
     </div>
 </template>

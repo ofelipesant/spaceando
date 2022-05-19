@@ -1,6 +1,6 @@
 <template>
     <header class="cabecalho">
-        <img src="../../../images/spaceando-logo.png" alt="logo" width="100">
+        <img src="../../../images/spaceando-logo.png" alt="logo" width="85" class="logo">
 
         <div class="menus">
             <nav>
@@ -18,3 +18,7 @@
         </div>
     </header>
 </template>
+
+<style lang="sass">
+@import './cabecalho.sass'
+</style>

@@ -5,14 +5,14 @@ export const routes = [
         path: '/',
         name: 'home',
         meta: {},
-        component: () => import('../views/Home.vue')
+        component: () => import('../views/Home/Home.vue')
     },
 
     {
         path: '/foto-do-dia',
         name: 'foto-do-dia',
         meta: {},
-        component: () => import('../views/FotoDoDia.vue')
+        component: () => import('../views/FotoDoDia/FotoDoDia.vue')
     }
 ]
 

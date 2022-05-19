@@ -1,7 +1,7 @@
 <script setup>
-import Cabecalho from "../components/Cabecalho/Cabecalho.vue";
-import ServiceCard from "../components/ServiceCard/ServiceCard.vue";
-import Rodape from '../components/Rodape/Rodape.vue'
+import Cabecalho from "../../components/Cabecalho/Cabecalho.vue";
+import ServiceCard from "../../components/ServiceCard/ServiceCard.vue";
+import Rodape from '../../components/Rodape/Rodape.vue'
 import { RouterLink } from 'vue-router'
 </script>
 
@@ -15,13 +15,13 @@ import { RouterLink } from 'vue-router'
         <h3>
           A Spaceando é um espaço onde você tem acesso à diversas informações e
           curiosidades sobre o nosso planeta e o que há ao redor dele. Tudo de
-          maneira fácil é prática.
+          maneira fácil e prática.
         </h3>
       </div>
     </section>
 
     <section class="servicos">
-        <h3>Confira os serviços disponíveis</h3>
+        <h3 class="section-title">Confira os serviços disponíveis</h3>
         <div class="card-list">
           <RouterLink to="/foto-do-dia">
               <ServiceCard
@@ -29,18 +29,34 @@ import { RouterLink } from 'vue-router'
                 card-banner="../../images/galaxia.png"
               />
           </RouterLink>
+
           <ServiceCard
             card-name="ASTERÓIDES"
             card-banner="../../images/asteroide.png"
           />
+
           <ServiceCard
             card-name="DIÁRIO DA TERRA"
             card-banner="../../images/planeta-terra.png"
           />
+
           <ServiceCard
             card-name="ROVERS EM MARTE"
             card-banner="../../images/mars-rover.png"
           />
+        </div>
+    </section>
+
+    <section class="about">
+        <h3 class="section-title">SOBRE</h3>
+
+        <div class="description">
+            <img src="../../../images/planeta.png" alt="planet" loading="lazy" width="60">
+            <p>
+                Esse pequeno projeto reúne alguns dos serviços disponibilizados pelas APIs gratuítas da NASA e
+                são viabilizados para o público em geral. Assim, deixando essas informações e curiosidades mais
+                acessíveis aos usuários que queiram saber mais sobre o planeta Terra e a astronomia em geral.
+            </p>
         </div>
     </section>
   </main>
