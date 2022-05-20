@@ -8,3 +8,7 @@
         </span>
     </footer>
 </template>
+
+<style lang="sass">
+@import './rodape.sass'
+</style>

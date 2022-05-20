@@ -19,3 +19,7 @@
         <img :src=cardBanner alt="card-banner" class="card-banner" width="100" loanding="lazy">
     </div>
 </template>
+
+<style lang="sass">
+@import './service-card.sass'
+</style>

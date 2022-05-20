@@ -1,18 +1,26 @@
+<script>
+import { RouterLink } from "vue-router";
+
+</script>
+
+
 <template>
     <header class="cabecalho">
         <img src="../../../images/spaceando-logo.png" alt="logo" width="85" class="logo">
 
         <div class="menus">
-            <nav>
-                Foto do dia
-            </nav>
-            <nav>
+            <RouterLink to="/foto-do-dia" class="link">
+                <nav class="menu-link">
+                    Foto do dia
+                </nav>
+            </RouterLink>
+            <nav class="menu-link">
                 Asteróides
             </nav>
-            <nav>
+            <nav class="menu-link">
                 Diário da Terra
             </nav>
-            <nav>
+            <nav class="menu-link">
                 Marte
             </nav>
         </div>

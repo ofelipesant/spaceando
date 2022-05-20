@@ -1,0 +1,31 @@
+.service-card
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-evenly
+    min-width: 200px
+    min-height: 250px
+    padding: 5px
+    border-radius: 10px
+    outline: 1px solid black
+    border-bottom: solid 3px black
+    cursor: pointer
+    transition: .3s
+
+    .card-title
+        display: flex
+        justify-self: flex-start
+        transition: .5s
+    
+    .card-banner
+        transition: 4s
+
+.service-card:hover
+    background-color: black
+
+.service-card:hover .card-title
+    color: white
+    transform: translateY(-15px)
+
+.service-card:hover .card-banner
+    transform: scale(1.2)
