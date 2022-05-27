@@ -9,18 +9,18 @@ import { RouterLink } from 'vue-router'
   <Cabecalho />
 
   <main>
-    <section class="home-section">
+    <section class="home-section bg">
       <div>
         <h1 class="title">S P A C E A N D O</h1>
         <h3 class="home-description">
-          A Spaceando é um espaço onde você tem acesso à diversas informações e
+         Um espaço onde você tem acesso à diversas informações e
           curiosidades sobre o nosso planeta e o que há ao redor dele. Tudo de
           maneira fácil e prática.
         </h3>
       </div>
     </section>
 
-    <section class="section-servicos">
+    <section class="section-servicos bg">
         <h3 class="servicos-title">COMECE POR AQUI</h3>
         <div class="card-list">
            <img src="../../../images/planeta.png" alt="planet" loading="lazy" width="60" class="planet">
